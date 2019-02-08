@@ -1,0 +1,24 @@
+{
+  "name": "chat-server",
+  "version": "0.0.1",
+  "description": "chat server on socket io",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "babel-node server/server.js"
+  },
+  "keywords": [
+    "socketio"
+  ],
+  "author": "2v.fernando@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "remove": "^0.1.5",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0"
+  }
+}
